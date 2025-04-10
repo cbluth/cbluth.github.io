@@ -7,19 +7,21 @@ function _log {
 
 function _publish {
     set -evxuo pipefail
-    _log "Publishing..."
-    pushd "$(git rev-parse --show-toplevel)"
-    local branch="$(git rev-parse --abbrev-ref HEAD)"
-    npm run build
-    git checkout publish
-    git pull origin publish
-    # find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name '.gitignore' -exec echo {} +
-    rm -rf a assets CNAME cv.pdf index.html
-    cp -r dist/* .
-    git add .
-    git commit -m "update"
-    git push origin publish
-    git checkout "${branch}"
+    time {
+        _log "Publishing..."
+        pushd "$(git rev-parse --show-toplevel)"
+        local branch="$(git rev-parse --abbrev-ref HEAD)"
+        npm run build
+        git checkout publish
+        git pull origin publish
+        # find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name '.gitignore' -exec echo {} +
+        rm -rf a assets CNAME cv.pdf index.html
+        cp -r dist/* .
+        git add .
+        git commit -m "update"
+        git push origin publish
+        git checkout "${branch}"
+    }
 }
 
-time _publish "${@}"
+# time _publish "${@}"

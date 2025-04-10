@@ -6,30 +6,30 @@
 <!-- view -->
 <div class="flex flex-col items-center max-w-[720px] p-[24px]">
     <span class="text-[26px] font-bold">👋 Hi, I'm Cobin.</span>
-    <div class="flex flex-row w-full justify-between">
-        <div class="flex flex-col text-center mx-4">
+    <div class="flex flex-col md:flex-row w-full justify-between">
+        <div class="flex flex-col items-center text-center m-4">
             <picture class="m-2">
                 <source
-                    class="mx-auto my-4 rounded-lg w-32 h-32"
+                    class="rounded-lg w-24 h-24 md:w-32 md:h-32"
                     srcset="/me.webp"
                     type="image/webp"
                 />
                 <img
-                    class="mx-auto my-4 rounded-lg w-32 h-32"
+                    class="rounded-lg w-24 h-24 md:w-32 md:h-32"
                     src="/me.png"
                     alt="me"
                     title=""
                     style=""
                 />
             </picture>
-            <span class="whitespace-nowrap text-[var(--text-color2)]"
+            <span class="text-sm md:text-base whitespace-nowrap text-[var(--text-color2)]"
                 >Systems Engineering</span
             >
-            <span class="whitespace-nowrap text-[var(--text-color2)]"
+            <span class="text-sm md:text-base whitespace-nowrap text-[var(--text-color2)]"
                 >Scalable Automation</span
             >
         </div>
-        <div class="flex flex-col mx-4 max-w-[460px]">
+        <div class="flex flex-col mx-4 max-w-full md:max-w-[460px]">
             <span class="my-8 text-[var(--text-color2)]">
                 I'm a systems generalist with a strong focus on Linux,
                 high-performance, low-latency infrastructure. I'm passionate

@@ -2,16 +2,16 @@
 <script lang="ts">
 </script>
 
-<div class="flex flex-col items-center max-w-[512px] w-[512px] p-[24px]">
+<div class="flex flex-col items-center max-w-[512px] w-[512px] p-6">
     <span class="text-[26px] font-bold">👋 Hi, I'm Cobin.</span>
-    <picture class="m-2">
+    <picture class="m-4">
         <source
-            class="rounded-full w-[250px] h-[250px] m-2"
+            class="rounded-full w-40 h-40 md:w-60 md:h-60"
             srcset="/me.webp"
             type="image/webp"
         />
         <img
-            class="rounded-full w-[250px] h-[250px] m-2"
+            class="rounded-full w-40 h-40 md:w-60 md:h-60"
             src="/me.png"
             alt="me"
             title=""

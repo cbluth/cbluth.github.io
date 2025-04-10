@@ -7,7 +7,7 @@
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <div
     class="
-    flex flex-row h-[64px] h-min-[64px]
+    flex flex-col sm:flex-row sm:h-[64px] sm:h-min-[64px]
     justify-around items-center
     w-full bg-[var(--bg-color2)]
     "
