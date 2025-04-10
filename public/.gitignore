@@ -1,0 +1,10 @@
+#
+tmp
+tmp/**
+dist
+dist/**
+scratch
+publish
+node_modules
+node_modules/**
+
