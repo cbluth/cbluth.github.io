@@ -1,3 +1,4 @@
+<!-- src/lib/route.svelte -->
 <script lang="ts" module>
     import { writable } from "svelte/store";
     export const route = writable(getCurrentRoute());

@@ -1,3 +1,4 @@
+<!-- src/lib/About.svelte -->
 <script lang="ts">
     //
 </script>
@@ -67,8 +68,10 @@
                     Backend Development: golang, python, rest, databases
                     (postgres/mysql)
                 </li>
-                <li>Research: security and compliance frameworks,
-                    identity and access control, performance tuning
+                <li>And:
+                    security and compliance frameworks,
+                    identity and access control,
+                    kernel tuning, monitoring systems
                 </li>
             </ul>
             <span class="text-[var(--text-color2)]"

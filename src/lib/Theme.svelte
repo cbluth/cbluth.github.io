@@ -1,3 +1,4 @@
+<!-- src/lib/Theme.svelte -->
 <script module lang="ts">
     let i = 0;
     const themes = ["dark", "light", "midnight", "solarized"];
