@@ -24,5 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - id: deploy_to_pages
+        with:
+          public_base_path: /
         name: Vite Github Pages Deploy
         uses: skywarth/vite-github-pages-deployer@master
