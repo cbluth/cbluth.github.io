@@ -7,12 +7,12 @@
     <picture class="m-2">
         <source
             class="rounded-full w-[250px] h-[250px] m-2"
-            srcset="/a/me.webp"
+            srcset="/me.webp"
             type="image/webp"
         />
         <img
             class="rounded-full w-[250px] h-[250px] m-2"
-            src="/a/me.png"
+            src="/me.png"
             alt="me"
             title=""
             style=""

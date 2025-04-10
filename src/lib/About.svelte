@@ -11,12 +11,12 @@
             <picture class="m-2">
                 <source
                     class="mx-auto my-4 rounded-lg w-32 h-32"
-                    srcset="/a/me.webp"
+                    srcset="/me.webp"
                     type="image/webp"
                 />
                 <img
                     class="mx-auto my-4 rounded-lg w-32 h-32"
-                    src="/a/me.png"
+                    src="/me.png"
                     alt="me"
                     title=""
                     style=""
