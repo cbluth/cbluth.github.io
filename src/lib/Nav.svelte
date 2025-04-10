@@ -9,7 +9,7 @@
     class="
     flex flex-col sm:flex-row sm:h-[64px] sm:h-min-[64px]
     justify-around items-center
-    w-full bg-[var(--bg-color2)]
+    w-full max-w-full bg-[var(--bg-color2)]
     "
 >
     <div class="flex">
